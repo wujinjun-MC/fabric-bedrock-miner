@@ -1,3 +1,6 @@
+> [!WARNING]
+> Cleared "getDefaultBlockBlacklistServer". Only for test purposes. Please don't use in servers!
+
 [繁體中文](./README_TW.md) | **简体中文** | [English](./README_EN.md)
 
 ---
