@@ -32,10 +32,6 @@ public class Config {
     public static List<String> getDefaultBlockWhitelist() {
         var list = new ArrayList<String>();
         list.add(BlockUtils.getKeyString(Blocks.BEDROCK));                  // 基岩
-        // 防误触，取消以下默认白名单
-        // list.addTask(BlockUtils.getId(Blocks.END_PORTAL));               // 末地传送门
-        // list.addTask(BlockUtils.getId(Blocks.END_PORTAL_FRAME));         // 末地传送门-框架
-        // list.addTask(BlockUtils.getId(Blocks.END_GATEWAY));              // 末地折跃门
         return list;
     }
 
